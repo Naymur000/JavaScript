@@ -112,7 +112,7 @@ const handleAddToCart = (player, value) => {
         value.style.borderColor = '#28a745';
     }
     else if (cartCount === 11) {
-        alert('You can add maximum 11 players to the cart !');
+        alert('!!! You can hire maximum 11 players !');
     }
 }
 
