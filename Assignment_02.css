@@ -1,0 +1,142 @@
+.navbar {
+    background-color: rgb(138, 156, 188);
+}
+ 
+main {
+    display: flex;
+}
+
+#player-name {
+    width: 50%;
+    margin-top: 50px;
+}
+
+#search-player {
+    width: 150px;
+    background-color: rgb(70, 27, 8);
+    color: white;
+    border: 1px solid rgb(70, 27, 8);
+    cursor: pointer;
+}
+
+.player-input {
+    padding: 5px;
+    font-size: 1em;
+    display: inline-block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rgb(94, 94, 94);
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(21, 7, 81);
+    margin-top: 50px;
+    color: white;
+    font-size: 3em;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 4px;
+}
+ 
+h3 {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 2em;
+}
+
+.cart-count {
+    text-align: center;
+}
+
+#cart-player {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(33, 114, 157);
+    color: white;
+    line-height: 2rem;
+    display: inline-block;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+.home-container {
+    flex-grow: 3;
+    min-width: 250px;
+    margin: 0 auto;
+    border: 1px solid gray;
+}
+
+.cart-container {
+    flex-grow: 1;
+    min-width: 250px;
+    margin: 0 auto;
+    /* border: 1px solid gray; */
+}
+
+.card-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.card {
+    margin: 10px;
+    width: 222px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px gray;
+}
+
+/* .card-detail {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px gray;
+} */
+
+.img-container {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+.card-img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.player-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin: 9px;
+}
+
+.icon {
+    font-size: 30px;
+    margin: 10px;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: black;
+}
